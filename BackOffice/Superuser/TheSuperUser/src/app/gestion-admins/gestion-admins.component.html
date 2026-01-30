@@ -1,0 +1,75 @@
+
+  
+<div style="display: flex; flex-direction: column; align-items: center; margin: 20px 0;">
+  <h1 style="font-size: 45px; font-weight: bold; color: #333; margin-bottom: 10px;">Gestion des admins</h1>
+  <input
+    type="text"
+    [(ngModel)]="searchTerm"
+    (keydown.enter)="onSearchInput(searchTerm)"
+    placeholder="🔍 Search Admins..."
+    style="padding: 10px 14px; font-size: 16px; width: 100%; max-width: 400px; border-radius: 6px; border: 1px solid #ccc; box-shadow: 0 2px 4px rgba(0,0,0,0.1);"
+  />
+</div>
+
+
+
+<div  *ngIf="ToAdjustAdmin" class="floating-center-box">
+  <h2>Gestion des admins</h2>
+  <label for="nom">Nom:</label>
+    <input type="text" id="nom" [(ngModel)]="nom" />
+    <label for="prenom">Prénom:</label>
+    <input type="text" id="prenom" [(ngModel)]="prenom" />
+    <label for="mail">Mail:</label>
+    <input type="text" id="mail" [(ngModel)]="mail" />
+    <label for="password">Mot de passe:</label>
+    <input type="text" id="password" [(ngModel)]="pwd" />
+     <div class="box-button">
+  <button (click)="AddAdmin()" class="btn-green border-radius">Ajouters</button>
+  <button (click)="DeleteAdmin()" class="btn-red border-radius">Supprimer</button>
+  <button (click)="UpdateAdmin()" class="btn-blue border-radius">Modifier</button>
+  <button class = "btn btn-danger border-radius" type="reset">Annuler</button>
+  </div>
+  
+</div>
+<div  *ngIf="modifier" class="floating-right-box">
+  <h2>Modifier Admin</h2>
+  <label for="nom">Nom:</label>
+    <input type="text" id="nom" [(ngModel)]="newnom" />
+    <label for="prenom">Prénom:</label>
+    <input type="text" id="prenom" [(ngModel)]="newprenom" />
+    <label for="mail">Mail:</label>
+    <input type="text" id="mail" [(ngModel)]="newMail" />
+    <label for="password">Mot de passe:</label>
+    <input type="text" id="password" [(ngModel)]="newpwd" />
+     <button (click)="UpdateAdmin()" class="btn-blue border-radius" (click)="SubmitModifier()">Modifier</button>
+  <button class = "btn btn-danger border-radius" type="reset">Annuler</button>
+
+  
+</div>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Nom</th>
+        <th>Prénom</th>
+      <th>Mail</th>
+      <th>password</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let admin of admins" (click)="AdjustAdmin(admin)">
+      <td>{{ admin.id }}</td>
+     
+      <td>{{ admin.nom }}</td>
+      <td>{{ admin.prenom }}</td>
+      <td>{{ admin.Mail }}</td>
+      <td>{{ admin.pwd }}</td>
+     
+
+      <td>
+        <!--button (click)="editAdmin(admin.id)">Edit</button>
+        <button (click)="deleteAdmin(admin.id)">Delete</button-->
+      </td>
+    </tr>
+  </tbody>
+</table>
