@@ -1,0 +1,89 @@
+
+  
+<div style="display: flex; flex-direction: column; align-items: center; margin: 20px 0;">
+  <h1 style="font-size: 45px; font-weight: bold; color: #333; margin-bottom: 10px;">Gestion des docteurs</h1>
+  <input
+    type="text"
+    [(ngModel)]="searchTerm"
+    (keydown.enter)="onSearchInput(searchTerm)"
+    placeholder="🔍 Search docteurs..."
+    style="padding: 10px 14px; font-size: 16px; width: 100%; max-width: 400px; border-radius: 6px; border: 1px solid #ccc; box-shadow: 0 2px 4px rgba(0,0,0,0.1);"
+  />
+</div>
+
+<button (click) = "AjoutForm()"  class="btn btn-success"> Ajouter un Medecin ? </button>
+
+<div  *ngIf="ToAdjustdocteur" class="floating-center-box" >
+  <h2>Gestion des Medecins</h2>
+  <label for="name">name:</label>
+    <input type="text" id="name" [(ngModel)]="name" />
+    <label for="prenom">Prénom:</label>
+    <input type="text" id="prenom" [(ngModel)]="prenom" />
+    <label for="mail">Mail:</label>
+    <input type="text" id="mail" [(ngModel)]="mail" />
+    <label for="password">Mot de passe:</label>
+    <input type="text" id="password" [(ngModel)]="pwd" />
+     <label for="password">Addresse</label>
+    <input type="text" id="localisation" [(ngModel)]="localisation" />
+     <label for="password">Specialite:</label>
+    <input type="text" id="Specialite" [(ngModel)]="specialite" />
+     <div class="box-button">
+  <button (click)="AjouterMed()" class="btn-green border-radius">Ajouter</button>
+  <button (click)="Deletedocteur()" class="btn-red border-radius"*ngIf="supprimer">Supprimer</button>
+  <button (click)="Updatedocteur()" class="btn-blue border-radius"*ngIf= "supprimer">Modifier</button>
+  <button class = "btn btn-danger border-radius" type="reset">Annuler</button>
+  </div>
+  
+</div>
+<div  *ngIf="modifier" class="floating-right-box">
+  <h2>Modifier docteur</h2>
+  <label for="name">name:</label>
+    <input type="text" id="name" [(ngModel)]="newname" />
+    <label for="prenom">Prénom:</label>
+    <input type="text" id="prenom" [(ngModel)]="newprenom" />
+    <label for="mail">Mail:</label>
+    <input type="text" id="mail" [(ngModel)]="newMail" />
+    <label for="password">Mot de passe:</label>
+    <input type="text" id="password" [(ngModel)]="newpwd" />
+    <label for="password">Addresse</label>
+    <input type="text" id="localisation" [(ngModel)]="newlocalisation" />
+     <label for="password">Specialite:</label>
+    <input type="text" id="Specialite" [(ngModel)]="newspec" />
+    
+     <button  class="btn-blue border-radius" (click)="SubmitModifier()">Modifier</button>
+  <button class = "btn btn-danger border-radius" type="reset">Annuler</button>
+
+  
+</div>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>name</th>
+        <th>Prénom</th>
+      <th>Mail</th>
+      <th>password</th>
+      <th> Specialite</th>
+      <th> Addresse</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let docteur of docteurs" (click)="Adjustdocteur(docteur)">
+      <td>{{ docteur.id }}</td>
+     
+      <td>{{ docteur.name }}</td>
+      <td>{{ docteur.prenom }}</td>
+      <td>{{ docteur.Mail }}</td>
+
+      <td>{{ docteur.pwd }}</td>
+      <td> {{docteur.speciality }}</td>
+      <td> {{docteur.location}}</td>
+     
+
+      <td>
+        <!--button (click)="editdocteur(docteur.id)">Edit</button>
+        <button (click)="deletedocteur(docteur.id)">Delete</button-->
+      </td>
+    </tr>
+  </tbody>
+</table>
