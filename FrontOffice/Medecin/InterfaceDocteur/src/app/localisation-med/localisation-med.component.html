@@ -1,0 +1,19 @@
+<div class="container mt-5">
+    
+    <h2>Changer votre adresse</h2>
+    <form [formGroup]="adresseForm" (ngSubmit)="valider()">
+      <div class="mb-3">
+        <label for="adresseActuelle" class="form-label">Adresse actuelle</label>
+        <input type="text" id="adresseActuelle" class="form-control" formControlName="adresseActuelle">
+      </div>
+  
+      <div class="mb-3">
+        <label for="nouvelleAdresse" class="form-label">Nouvelle adresse</label>
+        <input type="text" id="nouvelleAdresse" class="form-control" formControlName="nouvelleAdresse" required>
+      </div>
+  
+      <button type="submit" class="btn btn-primary">Valider</button>
+    </form>
+  </div>
+  
+  
