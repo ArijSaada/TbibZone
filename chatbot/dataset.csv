@@ -1,0 +1,189 @@
+id,question,answer,category,language
+1,"Pourquoi je ne peux pas me connecter à mon compte ?","Vérifiez votre connexion Internet et assurez-vous que vos identifiants sont corrects.","Problème de connexion","fr"
+2,"Que faire si j'ai oublié mon mot de passe ?","Contactez un administrateur ou créez un nouveau compte en utilisant un autre mail.","Problème de connexion","fr"
+3,"Que faire si l'application ne reconnaît pas mes identifiants ?","Assurez-vous que vous utilisez la bonne version de l'application et que vos identifiants sont corrects.","Problème de connexion","fr"
+4,"Pourquoi l'application se ferme-t-elle lors de la connexion ?","Essayez de redémarrer l'application ou de réinstaller la dernière version.","Problème de connexion","fr"
+5,"Que faire si mon compte a été piraté ?","Changez immédiatement votre mot de passe et contactez le support.","Problème de connexion","fr"
+6,"Que faire si l'application affiche 'Compte introuvable' ?","Assurez-vous que vous utilisez le bon email ou nom d'utilisateur. Si nécessaire, créez un nouveau compte.","Problème de connexion","fr"
+7,"Pourquoi l'application me redirige vers une page blanche après la connexion ?","Cela peut être dû à un problème de cache. Essayez de vider le cache de l'application ou de la réinstaller.","Problème de connexion","fr"
+8,"Comment vérifier si mon compte est actif ?","Contactez le support technique avec votre email ou nom d'utilisateur pour vérifier l'état de votre compte.","Problème de connexion","fr"
+9,"Que faire si je ne reçois pas de réponse du support technique ?","Vérifiez que vous avez contacté le support via le bon canal et réessayez. Vous pouvez aussi consulter la FAQ.","Problème de connexion","fr"
+10,"Comment résoudre un problème de connexion lente ?","Vérifiez votre connexion Internet et fermez les applications en arrière-plan pour libérer de la mémoire.","Problème de connexion","fr"
+11,"Pourquoi l'application affiche-t-elle une erreur de serveur ?","Cela peut être dû à une maintenance ou à un problème temporaire. Réessayez plus tard.","Problème de connexion","fr"
+12,"Que faire si je ne me souviens plus de mon nom d'utilisateur ?","Contactez l'un de nos administrateurs.","Problème de connexion","fr"
+13,"Pourquoi l'application ne me permet-elle pas de créer un nouveau compte ?","Vérifiez que vous remplissez tous les champs requis et que vous utilisez une adresse email valide non associée à un autre compte.","Problème de connexion","fr"
+14,"Comment savoir si mon compte a été suspendu ?","Contactez le support technique pour obtenir des informations sur l'état de votre compte.","Problème de connexion","fr"
+15,"Que faire si je ne peux pas accéder à mon email de récupération ?","Contactez le support technique pour vérifier d'autres options de récupération de compte.","Problème de connexion","fr"
+16,"Pourquoi l'application ne fonctionne-t-elle pas après une mise à jour du système ?","Assurez-vous que l'application est compatible avec votre version du système. Sinon, attendez une mise à jour de l'application.","Problème de connexion","fr"
+17,"لماذا لا يمكنني تسجيل الدخول إلى حسابي؟","تحقق من اتصالك بالإنترنت وتأكد من صحة بيانات الاعتماد الخاصة بك.","مشكلة في الاتصال","ar"
+18,"ماذا أفعل إذا نسيت كلمة المرور؟","اتصل بمسؤول أو أنشئ حسابًا جديدًا باستخدام بريد إلكتروني آخر.","مشكلة في الاتصال","ar"
+19,"ماذا أفعل إذا لم يتعرف التطبيق على بياناتي؟","تأكد من أنك تستخدم النسخة الصحيحة من التطبيق وأن بيانات الاعتماد الخاصة بك صحيحة.","مشكلة في الاتصال","ar"
+20,"لماذا يُغلق التطبيق عند محاولة تسجيل الدخول؟","حاول إعادة تشغيل التطبيق أو إعادة تثبيت أحدث نسخة.","مشكلة في الاتصال","ar"
+21,"ماذا أفعل إذا تم اختراق حسابي؟","غير كلمة المرور على الفور واتصل بالدعم الفني.","مشكلة في الاتصال","ar"
+22,"ماذا أفعل إذا ظهرت رسالة 'الحساب غير موجود'؟","تأكد من استخدام البريد الإلكتروني أو اسم المستخدم الصحيح. إذا لزم الأمر، أنشئ حسابًا جديدًا.","مشكلة في الاتصال","ar"
+23,"لماذا يتم تحويلي إلى صفحة بيضاء بعد تسجيل الدخول؟","قد يكون السبب مشكلة في الذاكرة المؤقتة. حاول مسح ذاكرة التطبيق أو إعادة تثبيته.","مشكلة في الاتصال","ar"
+24,"كيف أتحقق مما إذا كان حسابي نشطًا؟","اتصل بالدعم الفني وأرسل بريدك الإلكتروني أو اسم المستخدم للتحقق من حالة حسابك.","مشكلة في الاتصال","ar"
+25,"ماذا أفعل إذا لم أتلقَ ردًا من الدعم الفني؟","تأكد من أنك تواصلت مع الدعم عبر القناة الصحيحة وحاول مرة أخرى. يمكنك أيضًا مراجعة الأسئلة الشائعة.","مشكلة في الاتصال","ar"
+26,"كيف يمكن حل مشكلة الاتصال البطيء؟","تحقق من اتصالك بالإنترنت وأغلق التطبيقات التي تعمل في الخلفية لتحرير الذاكرة.","مشكلة في الاتصال","ar"
+27,"لماذا يظهر التطبيق خطأ في الخادم؟","قد يكون هذا بسبب أعمال الصيانة أو مشكلة مؤقتة. حاول مرة أخرى لاحقًا.","مشكلة في الاتصال","ar"
+28,"ماذا أفعل إذا لم أتذكر اسم المستخدم الخاص بي؟","تواصل مع أحد المسؤولين لدينا.","مشكلة في الاتصال","ar"
+29,"لماذا لا يسمح لي التطبيق بإنشاء حساب جديد؟","تأكد من ملء جميع الحقول المطلوبة واستخدام عنوان بريد إلكتروني صالح وغير مرتبط بأي حساب مريض آخر.","مشكلة في الاتصال","ar"
+30,"كيف أعرف إذا تم تعليق حسابي؟","اتصل بالدعم الفني للحصول على معلومات حول حالة حسابك.","مشكلة في الاتصال","ar"
+31,"ماذا أفعل إذا لم أتمكن من الوصول إلى بريد الاسترداد؟","تواصل مع الدعم الفني للتحقق من خيارات استعادة الحساب الأخرى.","مشكلة في الاتصال","ar" 
+32, "لماذا لا يعمل التطبيق بعد تحديث نظام التشغيل؟", "تأكد من أن التطبيق متوافق مع إصدار نظام التشغيل لديك. وإلا، انتظر حتى يتم تحديث التطبيق.", "مشكلة في الاتصال", ar
+33,"Why can't I log in to my account?","Check your internet connection and make sure your credentials are correct.","Login problem","en"
+34,"What should I do if I forgot my password?","Contact an administrator or create a new account using a different email address.","Login problem","en"
+
+35,"What should I do if the app doesn't recognize my credentials?","Make sure you're using the correct version of the app and that your credentials are correct.","Login problem","en"
+36,"Why does the app close when logging in?","Try restarting the app or reinstalling the latest version.","Login problem","en"
+
+37,"What should I do if my account has been hacked?","Change your password immediately and contact support.","Login problem","en"
+
+38,"What should I do if the app displays 'Account not found' ?","Make sure you're using the correct email address or username. If necessary, create a new account.","Login Problem","en"
+39,"Why does the app redirect me to a blank page after logging in?","This may be due to a cache issue. Try clearing the app's cache or reinstalling it.","Login Problem","en"
+40,"How do I check if my account is active?","Contact support with your email address or username to check your account status.","Login Problem","en"
+
+41,"What should I do if I don't receive a response from support?","Check that you've contacted support through the correct channel and try again. You can also consult the FAQ.","Login Problem","en"
+
+42,"How do I resolve a slow connection issue?","Check your internet connection and close background apps to free up memory.","Login Problem","en"
+43,"Why does the app display A server error?","This may be due to maintenance or a temporary issue. Please try again later.","Login Problem","en"
+44,"What should I do if I can't remember my username?","Contact one of our administrators.","Login Problem","en"
+45,"Why won't the app let me create a new account?","Check that you've completed all required fields and are using a valid email address that isn't associated with any other patient account.","Login Problem","en"
+46,"How do I know if my account has been suspended?","Contact technical support for information on your account status.","Login Problem","en"
+48,"Why isn't the app working after an operating system update? ?","Make sure the app is compatible with your operating system version. If not, wait for an app update.","Problème de connexion","en"
+
+49,"J'ai des problèmes de peau, à quel spécialiste dois-je m'adresser ?","Pour des problèmes de peau, consultez un dermatologue.","Dermatologie","fr"
+50,"Qui consulter pour un traitement de l'acné sévère ?","Un dermatologue est le spécialiste à consulter pour un traitement de l'acné sévère.","Dermatologie","fr"
+51,"J'ai des douleurs articulaires, qui dois-je consulter ?","Pour des douleurs articulaires, consultez un rhumatologue.","Rhumatologie","fr"
+52,"Quel spécialiste consulter pour de l'arthrite ?","Un rhumatologue est le spécialiste à consulter pour de l'arthrite.","Rhumatologie","fr"
+53,"J'ai des problèmes de vision, à qui m'adresser ?","Pour des problèmes de vision, consultez un ophtalmologue.","Ophtalmologie","fr"
+54,"Qui consulter pour une chirurgie des yeux ?","Un ophtalmologue est le spécialiste à consulter pour une chirurgie des yeux.","Ophtalmologie","fr"
+55,"J'ai des problèmes cardiaques, qui dois-je voir ?","Pour des problèmes cardiaques, consultez un cardiologue.","Cardiologie","fr"
+56,"Quel spécialiste consulter pour un suivi après une crise cardiaque ?","Un cardiologue est le spécialiste à consulter pour un suivi après une crise cardiaque.","Cardiologie","fr"
+57,"J'ai des troubles digestifs, à qui m'adresser ?","Pour des troubles digestifs, consultez un gastro-entérologue.","Gastro-entérologie","fr"
+58,"Qui consulter pour des douleurs à l'estomac persistantes ?","Un gastro-entérologue est le spécialiste à consulter pour des douleurs à l'estomac persistantes.","Gastro-entérologie","fr"
+59,"J'ai des problèmes respiratoires, qui consulter ?","Pour des problèmes respiratoires, consultez un pneumologue.","Pneumologie","fr"
+60,"Quel spécialiste consulter pour de l'asthme ?","Un pneumologue est le spécialiste à consulter pour de l'asthme.","Pneumologie","fr"
+61,"J'ai des problèmes hormonaux, à qui m'adresser ?","Pour des problèmes hormonaux, consultez un endocrinologue.","Endocrinologie","fr"
+62,"Qui consulter pour un traitement du diabète ?","Un endocrinologue est le spécialiste à consulter pour un traitement du diabète.","Endocrinologie","fr"
+63,"J'ai des problèmes de reins, qui dois-je voir ?","Pour des problèmes de reins, consultez un néphrologue.","Néphrologie","fr"
+64,"Quel spécialiste consulter pour une insuffisance rénale ?","Un néphrologue est le spécialiste à consulter pour une insuffisance rénale.","Néphrologie","fr"
+
+65,"J'ai des problèmes de foie, à qui m'adresser ?","Pour des problèmes de foie, consultez un hépatologue.","Hépatologie","fr"
+66,"Qui consulter pour une hépatite ?","Un hépatologue est le spécialiste à consulter pour une hépatite.","Hépatologie","fr"
+67,"J'ai des problèmes neurologiques, qui consulter ?","Pour des problèmes neurologiques, consultez un neurologue.","Neurologie","fr"
+68,"Quel spécialiste consulter pour des migraines fréquentes ?","Un neurologue est le spécialiste à consulter pour des migraines fréquentes.","Neurologie","fr"
+69,"J'ai des problèmes psychologiques, à qui m'adresser ?","Pour des problèmes psychologiques, consultez un psychiatre ou un psychologue.","Psychiatrie/Psychologie","fr"
+70,"Qui consulter pour un traitement de la dépression ?","Un psychiatre est le spécialiste à consulter pour un traitement de la dépression.","Psychiatrie/Psychologie","fr"
+71,"J'ai des problèmes gynécologiques, qui dois-je voir ?","Pour des problèmes gynécologiques, consultez un gynécologue.","Gynécologie","fr"
+72,"Quel spécialiste consulter pour un suivi de grossesse ?","Un gynécologue est le spécialiste à consulter pour un suivi de grossesse.","Gynécologie","fr"
+73,"J'ai des problèmes urinaires, à qui m'adresser ?","Pour des problèmes urinaires, consultez un urologue.","Urologie","fr"
+74,"Qui consulter pour des infections urinaires fréquentes ?","Un urologue est le spécialiste à consulter pour des infections urinaires fréquentes.","Urologie","fr"
+75,"J'ai des problèmes ORL, qui consulter ?","Pour des problèmes ORL (oreilles, nez, gorge), consultez un ORL.","ORL","fr"
+76,"Quel spécialiste consulter pour des otites à répétition ?","Un ORL est le spécialiste à consulter pour des otites à répétition.","ORL","fr"
+77,"J'ai des problèmes dentaires, à qui m'adresser ?","Pour des problèmes dentaires, consultez un dentiste ou un stomatologue.","Dentisterie/Stomatologie","fr"
+78,"Qui consulter pour une extraction dentaire ?","Un dentiste ou un stomatologue est le spécialiste à consulter pour une extraction dentaire.","Dentisterie/Stomatologie","fr"
+79,"J'ai besoin de rééducation après une blessure, qui consulter ?","Pour une rééducation après une blessure, consultez un kinésithérapeute.","Kinésithérapie","fr"
+80,"Quel spécialiste consulter pour des séances de rééducation post-opératoire ?","Un kinésithérapeute est le spécialiste à consulter pour des séances de rééducation post-opératoire.","Kinésithérapie","fr"
+81,"Je veux améliorer mon alimentation, à qui m'adresser ?","Pour améliorer votre alimentation, consultez un nutritioniste ou un diététicien.","Nutrition","fr"
+82,"Qui consulter pour un régime adapté à mon état de santé ?","Un nutritioniste ou un diététicien est le spécialiste à consulter pour un régime adapté à votre état de santé.","Nutrition","fr"
+83,"Mon enfant a de la fièvre, qui dois-je consulter ?","Pour un enfant qui a de la fièvre, consultez un pédiatre.","Pédiatrie","fr"
+84,"Quel spécialiste consulter pour le suivi de la croissance de mon enfant ?","Un pédiatre est le spécialiste à consulter pour le suivi de la croissance de votre enfant.","Pédiatrie","fr"
+85,"Mon enfant a des troubles du comportement, qui consulter ?","Pour des troubles du comportement chez un enfant, consultez un pédopsychiatre.","Pédopsychiatrie","fr"
+86,"Quel spécialiste consulter pour des problèmes d'anxiété chez un adolescent ?","Un pédopsychiatre est le spécialiste à consulter pour des problèmes d'anxiété chez un adolescent.","Pédopsychiatrie","fr"
+
+87,"I have skin problems, which specialist should I see?","For skin problems, see a dermatologist.","Dermatology",En
+88,"Who should I see for severe acne treatment?","A dermatologist is the specialist to see for severe acne treatment.","Dermatology",En
+89,"I have joint pain, who should I see?","For joint pain, see a rheumatologist.","Rheumatology",En
+90,"Which specialist should I see for arthritis?","A rheumatologist is the specialist to see for arthritis.","Rheumatology",En
+91,"I have vision problems, who should I see?","For vision problems, see an ophthalmologist.","Ophthalmology",En
+92,"Who should I see for eye surgery?","An ophthalmologist is the specialist to see for eye surgery. eyes.","Ophthalmology",En
+93,"I have heart problems, who should I see?","For heart problems, see a cardiologist.","Cardiology",En
+94,"Which specialist should I see for follow-up after a heart attack?","A cardiologist is the specialist to see for follow-up after a heart attack.","Cardiology",En
+95,"I have digestive problems, who should I see?","For digestive problems, see a gastroenterologist.","Gastroenterology",En
+96,"Who should I see for persistent stomach pain?","A gastroenterologist is the specialist to see for persistent stomach pain.","Gastroenterology",En
+97,"I have breathing problems, who should I see?","For breathing problems, see a pulmonologist.","Pneumologie",En
+98,"Which specialist should I see for asthma?","A pulmonologist is the specialist to see for asthma.","Pneumologie",En
+99,"I have hormonal problems, who should I see?","For hormonal problems, see an endocrinologist.","Endocrinology",En
+100,"Who should I see for diabetes treatment?","An endocrinologist is the specialist to see for diabetes treatment.","Endocrinology",En
+101,"I have kidney problems, who should I see?","For kidney problems, see a nephrologist.","Nephrology",En
+102,"Which specialist should I see for kidney failure?","A nephrologist is the specialist to see for kidney failure.","Nephrology",En
+
+103,"I have liver problems, who should I contact?","For liver problems, consult a hepatologist.","Hepatology",En
+104,"Who should I consult for hepatitis?","A hepatologist is the specialist to consult for hepatitis.","Hepatology",En
+105,"I have neurological problems, who should I consult?","For neurological problems, consult a neurologist.","Neurology",En
+106,"Which specialist should I consult for frequent migraines?","A neurologist is the specialist to consult for frequent migraines.","Neurology",En
+107,"I have psychological problems, who should I contact?","For psychological problems, consult a psychiatrist or psychologist.","Psychiatry/Psychology",En
+108,"Who should I consult for depression treatment?","A psychiatrist is the specialist to consult for depression treatment.","Psychiatry/Psychology",En
+109,"I have gynecological, who should I see?","For gynecological problems, consult a gynecologist.","Gynecology",En
+110,"Which specialist should I consult for pregnancy monitoring?","A gynecologist is the specialist to consult for pregnancy monitoring.","Gynecology",En
+111,"I have urinary problems, who should I contact?","For urinary problems, consult a urologist.","Urology",En
+112,"Who should I consult for frequent urinary tract infections?","A urologist is the specialist to consult for frequent urinary tract infections.","Urology",En
+113,"I have ENT problems, who should I consult?","For ENT problems (ears, nose, throat), consult an ENT.","ENT",En
+
+114,"Which specialist should I consult for repeated ear infections?","An ENT is the specialist to consult for repeated ear infections.","ENT",En
+115,"I have dental problems, who should I contact?","For dental problems, consult a dentist or a stomatologist.","Dentisterie/Stomatologie",En
+116,"Who should I consult for a tooth extraction?","A dentist or a stomatologist is the specialist to consult for a tooth extraction.","Dentisterie/Stomatologie",En
+117,"I need rehabilitation after an injury, who should I consult?","For rehabilitation after an injury, consult a physiotherapist.","Physiotherapy",En
+118,"Which specialist should I consult for post-operative rehabilitation sessions?","A physiotherapist is the specialist to consult for post-operative rehabilitation sessions.","Physiotherapy",En
+119,"I want to improve my diet, who should I contact?","To improve your diet, consult a nutritionist or dietician.","Nutrition",En
+120,"Who should I consult for a diet adapted to my state of health?","A nutritionist or dietician is the specialist to consult for a diet adapted to your state of health.","Nutrition",En
+121,"My child has a fever, who should I consult?","For a child who has a fever, consult a pediatrician.","Pediatrics",En
+122,"Which specialist should I consult to monitor my child's growth?","A pediatrician is the specialist to consult to monitor your child's growth.","Pediatrics",En
+123,"My child has behavioral problems, who should I consult?","For behavioral problems in a child, consult a child psychiatrist.","Child psychiatry",En
+124,"Which specialist should I consult for anxiety problems in an adolescent?","A child psychiatrist is the specialist to consult for anxiety problems in an adolescent.","Child psychiatry",En
+
+125, "لدي مشاكل جلدية، أي أخصائي يجب أن أزوره؟"، "لمشاكل الجلد، راجع طبيب الأمراض الجلدية"، "طب الجلدية"، العربية
+126, "من يجب أن أراه لعلاج حب الشباب الشديد؟"، "طبيب الأمراض الجلدية هو المتخصص الذي يجب أن أراه لعلاج حب الشباب الشديد"، "طب الأمراض الجلدية"، العربية
+127, "أعاني من آلام المفاصل، من يجب أن أزوره؟"، "لآلام المفاصل، راجع طبيب أمراض الروماتيزم"، "طب الروماتيزم"، العربية
+128, "أي أخصائي يجب أن أراه لالتهاب المفاصل؟"، "أخصائي أمراض الروماتيزم هو المتخصص الذي يجب أن أراه لالتهاب المفاصل"، "طب الروماتيزم"، العربية
+129, "لدي مشاكل في الرؤية، من يجب أن أزوره؟"، "في حالة مشاكل الرؤية، راجع طبيب عيون"، "طب العيون"، العربية
+130, "من يجب أن أراه لإجراء جراحة العيون؟"، "طبيب العيون هو المتخصص الذي يجب أن أراه لإجراء جراحة العيون. العيون."، "طب العيون"، العربية
+131, "لدي مشاكل في القلب، من يجب أن أزوره؟"، "لمشاكل القلب، راجع طبيب القلب"، "أمراض القلب"، العربية
+132, "أي أخصائي يجب أن أراه للمتابعة بعد الإصابة بنوبة قلبية؟"، "طبيب القلب هو المتخصص الذي يجب أن أراه للمتابعة بعد الإصابة بنوبة قلبية"، "طب القلب"، العربية
+133, "لدي مشاكل في الجهاز الهضمي، من يجب أن أزوره؟"، "في حالة وجود مشاكل في الجهاز الهضمي، راجع طبيب أمراض الجهاز الهضمي"، "طب الجهاز الهضمي"، العربية
+134, "من يجب أن أراه في حالة آلام المعدة المستمرة؟"، "طبيب الجهاز الهضمي هو المتخصص الذي يجب أن أراه في حالة آلام المعدة المستمرة"، "طب الجهاز الهضمي"، العربية
+135, "لدي مشاكل في التنفس، من يجب أن أزوره؟"، "في حالة مشاكل التنفس، راجع طبيب أمراض الرئة"، "طب الرئة"، العربية
+136, "أي أخصائي يجب أن أراه في حالة الربو؟"، "طبيب الرئة هو المتخصص الذي يجب أن أراه في حالة الربو"، "طب الرئة"، العربية
+137, "لدي مشاكل هرمونية، من يجب أن أزوره؟"، "في حالة وجود مشاكل هرمونية، راجع طبيب الغدد الصماء"، "الغدد الصماء"، العربية
+138, "من يجب أن أراه لعلاج مرض السكري؟"، "طبيب الغدد الصماء هو المتخصص الذي يجب أن أراه لعلاج مرض السكري"، "طب الغدد الصماء"، العربية
+139, "لدي مشاكل في الكلى، من يجب أن أزوره؟"، "في حالة مشاكل الكلى، راجع طبيب أمراض الكلى"، "طب الكلى"، العربية
+140, "أي أخصائي يجب أن أراه في حالة الفشل الكلوي؟"، "طبيب أمراض الكلى هو المتخصص الذي يجب أن أراه في حالة الفشل الكلوي"، "طب الكلى"، العربية
+141, "لدي مشاكل في الكبد، من يجب أن أتصل به؟"، "بالنسبة لمشاكل الكبد، استشر طبيب أمراض الكبد"، "أمراض الكبد"، العربية
+142, "من يجب أن أستشيره في حالة التهاب الكبد؟"، "طبيب الكبد هو المتخصص الذي يجب استشارته في حالة التهاب الكبد"، "طب الكبد"، العربية
+143, "لدي مشاكل عصبية، من يجب أن أستشيره؟"، "في حالة وجود مشاكل عصبية، استشر طبيب أعصاب"، "علم الأعصاب"، فرنسي
+144,"أي أخصائي يجب أن أستشيره في حالة الصداع النصفي المتكرر؟"،"طبيب الأعصاب هو المتخصص الذي يجب استشارته في حالة الصداع النصفي المتكرر"،"علم الأعصاب"،العربية
+145, "لدي مشاكل نفسية، من يجب أن أتصل به؟"، "في حالة وجود مشاكل نفسية، استشر طبيبًا نفسيًا أو معالجًا نفسيًا"، "الطب النفسي/علم النفس"، فرنسي
+146, "من يجب أن أستشيره لعلاج الاكتئاب؟"، "الطبيب النفسي هو المتخصص الذي يجب استشارته لعلاج الاكتئاب"، "الطب النفسي/علم النفس"، العربية
+147, "لدي مشكلة في أمراض النساء، من يجب أن أزوره؟"، "في حالة وجود مشاكل في أمراض النساء، استشر طبيب أمراض النساء"، "أمراض النساء"، العربية
+148, "أي أخصائي يجب أن أستشيره لمراقبة الحمل؟"، "طبيب أمراض النساء هو المتخصص الذي يجب استشارته لمراقبة الحمل"، "أمراض النساء"، العربية
+149, "لدي مشاكل في المسالك البولية، من يجب أن أتصل به؟"، "في حالة وجود مشاكل في المسالك البولية، استشر طبيب المسالك البولية"، "طب المسالك البولية"، العربية
+150, "من يجب أن أستشيره في حالة الإصابة المتكررة بالتهابات المسالك البولية؟"، "طبيب المسالك البولية هو المتخصص الذي يجب استشارته في حالة الإصابة المتكررة بالتهابات المسالك البولية"، "طب المسالك البولية"، العربية
+151, "لدي مشاكل في الأنف والأذن والحنجرة، من يجب أن أستشيره؟"، "بالنسبة لمشاكل الأنف والأذن والحنجرة (الأذن والأنف والحنجرة)، استشر طبيب الأنف والأذن والحنجرة"، "الأنف والأذن والحنجرة"، العربية
+
+152, "أي أخصائي يجب أن أستشيره في حالة تكرار التهابات الأذن؟"، "أخصائي الأنف والأذن والحنجرة هو المتخصص الذي يجب استشارته في حالة تكرار التهابات الأذن"، "أخصائي الأنف والأذن والحنجرة"، العربية
+153, "لدي مشاكل في الأسنان، من يجب أن أتصل به؟"، "في حالة وجود مشاكل في الأسنان، استشر طبيب أسنان أو طبيب أسنان"، "طب الأسنان/طب الأسنان"، العربية
+154, "من يجب أن أستشيره لخلع الأسنان؟"، "طبيب الأسنان أو طبيب الأسنان هو المتخصص الذي يجب استشارته لخلع الأسنان"، "طب الأسنان/طب الأسنان"، العربية
+155, "أحتاج إلى إعادة تأهيل بعد الإصابة، من يجب أن أتشاور معه؟"، "لإعادة التأهيل بعد الإصابة، استشر أخصائي العلاج الطبيعي"، "العلاج الطبيعي"،
+156, "أي أخصائي يجب أن أستشيره لجلسات إعادة التأهيل بعد الجراحة؟"، "أخصائي العلاج الطبيعي هو المتخصص الذي يجب استشارته لجلسات إعادة التأهيل بعد الجراحة"، "العلاج الطبيعي"، العربية
+157, "أريد تحسين نظامي الغذائي، من يجب أن أتواصل معه؟"، "لتحسين نظامك الغذائي، استشر أخصائي تغذية أو أخصائي تغذية"، "التغذية"، العربية
+158,"من يجب أن أستشيره للحصول على نظام غذائي يناسب حالتي الصحية؟"،"أخصائي التغذية أو أخصائي التغذية هو المتخصص الذي يجب استشارته للحصول على نظام غذائي يناسب حالتك الصحية."،"التغذية"،العربية
+159,"طفلي يعاني من الحمى، من يجب أن أستشيره؟"،"في حالة إصابة الطفل بالحمى، يجب استشارة طبيب الأطفال"،"طب الأطفال"،العربية
+160,"أي أخصائي يجب أن أستشيره لمراقبة نمو طفلي؟"،"طبيب الأطفال هو المتخصص الذي يجب استشارته لمراقبة نمو طفلك."،"طب الأطفال"،العربية
+161, "طفلي يعاني من مشاكل سلوكية، من يجب أن أستشيره؟"، "في حالة وجود مشاكل سلوكية لدى الطفل، استشر طبيب نفس الأطفال"، "طب نفس الأطفال"،
+162, "أي أخصائي يجب أن أستشيره في مشاكل القلق لدى المراهقين؟"، "طبيب نفس الأطفال هو المتخصص الذي يجب استشارته في مشاكل القلق لدى المراهقين"، "طب نفس الأطفال"،"ar"
+163, "Comment je prends un rendez-vous ? ","Cliquez sur l'un des médecins dans la liste que vous verrez après l'authentification , cliquez sur le jour et l'heure de votre choix", "Gestion des rendez-vous","fr" 
+164, "Ou et comment puis-je voir mes rendez-vous ? ", "Apres authentification,cliquez sur l'icon forme de menu , puis cliquez sur Appointments , vous verrez une interface montrant vos rendez-vous", "Gestion des rendez-vous", "fr"
+165," Comment modifier un rendez-vous ?" , " Apres authentification , cliquez sur l'icone forme de menu , puis cliquez sur Appointments , cliquez sur l'icon ,forme edit , dans le rendez-vous que vous souhaitez changer , remplissez le formulaire , et cliquez sur le bouton Modifier ", "Gestion des rendez-vous" , "fr"
+166, "Comment supprimer un rendez-vous ?", " Apres authentification , cliquez sur l'icone forme de menu , puis cliquez sur Appointments , cliquez sur l'icon ,forme poubelle, dans le rendez-vous que vous souhaitez supprimer, puis refrechissez la page pour confirmer que le rendez-vous a été supprimé avec succès", "Gestion des rendez-vous","fr"
+167, "Comment puis-je vérifier que l'application lit bien ma vraie localisation actuelle  ? ", " Apres authentification , cliquez sur l'icone forme de menu ,puis cliquez sur View current location , et l'application vous donnera la localisation qu'elle voit",  "verification de la localisation actuelle du patient", "fr"
+168, "How do I book an appointment?", "Click on one of the doctors in the list you'll see after authentication, then choose your preferred date and time.", "Appointment Management", "en"
+169, "Where and how can I view my appointments?", "After authentication, click on the menu-shaped icon, then click on 'Appointments'—you'll see an interface displaying your appointments.", "Appointment Management", "en"
+170, "How do I modify an appointment?", "After authentication, click on the menu-shaped icon, then click on 'Appointments', click the edit-shaped icon on the appointment you wish to change, fill out the form, and click the 'Modify' button.", "Appointment Management", "en"
+171, "How do I delete an appointment?", "After authentication, click on the menu-shaped icon, then click on 'Appointments', click the trash-shaped icon on the appointment you wish to delete, then refresh the page to confirm the appointment was successfully deleted.", "Appointment Management", "en"
+172, "How can I check if the app is reading my real current location correctly?", "After authentication, click on the menu-shaped icon, then click on 'View current location', and the app will show you the location it detects.", "Verification of the patient's current location", "en"
+173, "كيف يمكنني حجز موعد؟", "بعد تسجيل الدخول، انقر على أحد الأطباء في القائمة التي ستظهر لك، ثم اختر اليوم والوقت المناسبين", "إدارة المواعيد", "ar"  
+174, "أين وكيف يمكنني رؤية مواعيدي؟", "بعد تسجيل الدخول، انقر على أيقونة القائمة، ثم اضغط على 'المواعيد'، وسيظهر لك واجهة تعرض مواعيدك", "إدارة المواعيد", "ar"  
+175, "كيف يمكنني تعديل موعد؟", "بعد تسجيل الدخول، انقر على أيقونة القائمة، ثم اضغط على 'المواعيد'، انقر على أيقونة التعديل (قلم) بجانب الموعد الذي ترغب في تغييره، املأ النموذج ثم اضغط على زر 'تعديل", "إدارة المواعيد", "ar"  
+176, "كيف يمكنني حذف موعد؟", "بعد تسجيل الدخول، انقر على أيقونة القائمة، ثم اضغط على 'المواعيد'، انقر على أيقونة السلة (حذف) بجانب الموعد المراد إزالته، ثم قم بتحديث الصفحة للتأكد من نجاح الحذف", "إدارة المواعيد", "ar"  
+177, "كيف أتأكد أن التطبيق يقرأ موقعي الحالي بدقة؟", "بعد تسجيل الدخول، انقر على أيقونة القائمة، ثم اضغط على 'عرض الموقع الحالي'، وسيظهر لك التطبيق الموقع الذي يتم تحديده", "إدارة المواعيد" ,"ar"
