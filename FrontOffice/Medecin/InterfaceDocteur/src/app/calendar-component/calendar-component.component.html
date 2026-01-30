@@ -1,0 +1,101 @@
+<div class="calendar-wrapper">
+  
+  <input
+    type="text"
+    
+    (keydown.enter)="onSearchInput($event)"
+    placeholder="🔍 Search events..."
+    style="padding-left: 10px;" />
+
+<div class="calendar-controls">
+  <button (click)="view = CalendarView.Month" class = "active">Month</button>
+  <button (click)="view = CalendarView.Week" class = "active">Week</button>
+  <button (click)="view = CalendarView.Day" class = "active">Day</button>
+  
+</div>
+<div *ngIf="pressed" class="floating-center-box">
+  <h2>Gestion des rendez-vous</h2>
+  <label for = "Patient ">Patient</label>
+  <input type="text" [(ngModel)]="titre" placeholder="nom , prenom du patient" />
+
+  <input type="time" step="60" [(ngModel)]="newEventTime"   placeholder="HH:mm:ss" />
+ <input type="text" *ngIf="showInlineInput" 
+       [value]="newEventDate" 
+       readonly />
+  
+ 
+    
+
+
+
+  <div class="box-button">
+    <button class="btn btn-green" *ngIf="!datehasevent" (click)="add_rdv()">Ajouter</button>
+  
+    <button class="btn btn-yellow" (click)="del_rdv()">Supprimer</button>
+    <button class="btn btn-gray"  (click)="ModifierRdv()">Modifier</button>
+    <button class="btn btn-red" (click)="cancel()">Annuler</button>
+  </div>
+</div>
+
+
+<div class = "selectClass">
+  <select area-label ="select Month" [(ngModel)]="selectedMonth" (change)="updateViewDate()" >
+
+    <option *ngFor="let month of months; let i = index" [value]="i">{{ month }}</option>
+    </select>
+    <select area-label ="select Year" [(ngModel)]="selectedYear" (change)="updateViewDate()" >
+      <option *ngFor="let year of years" [value]="year">{{ year }}</option>
+    </select>
+
+  <select area-label ="select Day" [(ngModel)]="SelectedDay" (change)="onDateChosen()" >
+    <option *ngFor="let day of days" [value]="day">{{ day }}</option>
+  </select>
+  
+</div>
+
+
+<mwl-calendar-month-view 
+  *ngIf="view === CalendarView.Month"
+  [viewDate]="viewDate"
+  [events]="events"
+  (eventTimesChanged)="onDateChosen()"
+  (dayClicked)="onDatedClicked($event)"
+
+>
+
+</mwl-calendar-month-view>
+<div *ngIf="chercherPatient.length > 0 && searching">
+  <h3>Matching Events:</h3>
+  <ul>
+    <li *ngFor="let event of chercherPatient">
+      {{ event.title }} - {{ event.start | date:'fullDate' }}
+    </li>
+  </ul>
+</div>
+<!--input type="text" placeholder="Event title" class="input-box" />
+<button class="input-box">Add</button>
+<div class = calendar-container-->
+
+<mwl-calendar-week-view
+  *ngIf="view === CalendarView.Week"
+  [viewDate]="viewDate"
+  [events]="events"
+  [dayStartHour]="7"
+  [dayEndHour]="19"
+  (hourSegmentClicked)="GererEvent($event)"
+  (eventClicked)="GererEventExisting($event)"
+>
+
+</mwl-calendar-week-view>
+
+<mwl-calendar-day-view
+  *ngIf="view === CalendarView.Day"
+  [viewDate]="viewDate"
+  [events]="events"
+  [dayStartHour]="7"
+  [dayEndHour]="19"
+  (hourSegmentClicked)="GererEvent($event)"
+  >
+</mwl-calendar-day-view>
+</div>
+
