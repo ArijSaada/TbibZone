@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Accueil Médecin</title>
+  
+</head>
+<body class="bg-gray-100 min-h-screen p-6 font-sans">
+
+  <div class="max-w-5xl mx-auto">
+    <!-- Header -->
+    <header class="mb-6">
+      <h1 class="text-3xl font-bold text-gray-800">Bienvenue, Docteur 👋</h1>
+      <p class="text-gray-600 mt-1">Voici votre tableau de bord aujourd’hui.</p>
+    </header>
+
+    <!-- Prochains rendez-vous -->
+    <section class="mb-8">
+        
+        <section class="mb-8 w-full">
+            <h2 class="text-xl font-semibold text-gray-700 mb-4">
+              📅 Prochains rendez-vous pour aujourd’hui
+            </h2>
+            <div class="bg-white rounded-2xl shadow p-4 space-y-3">
+              <ng-container *ngIf="rdvs.length > 0; else noAppointments">
+                <div *ngFor="let rdv of rdvs" class="flex justify-between items-center border-b last:border-b-0 pb-2">
+                  <span class="font-medium text-gray-800">
+                    {{ rdv.appointment_time }} - {{ rdv.title }}
+                  </span>
+                  <span class="text-sm text-gray-500">{{ rdv.meta.consultation }}</span>
+                </div>
+              </ng-container>
+          
+              <ng-template #noAppointments>
+                <div class="text-gray-500 text-center py-4">
+                  Aucun rendez-vous prévu pour aujourd'hui.
+                </div>
+              </ng-template>
+            </div>
+          </section>
+        </section>
+      
+
+    <!-- Menu de navigation -->
+    <section class="mb-8">
+      <!-- Carte -->
+      <div class="bg-white rounded-2xl shadow p-5 hover:shadow-md transition" (click)="navigateTocalendar()">
+        <h3 class="text-lg font-semibold mb-2">📅 Gérer les rendez-vous</h3>
+        <p class="text-sm text-gray-600 mb-3">Consulter, ajouter ou annuler des rendez-vous.</p>
+        <a href="#" class="text-blue-600 font-medium">Accéder →</a>
+      </div>
+
+      
+      <div class="bg-white rounded-2xl shadow p-5 hover:shadow-md transition">
+        <h3 class="text-lg font-semibold mb-2 " >📍 Localisation du cabinet</h3>
+        <p class="text-sm text-gray-600 mb-3">Mettre à jour l’adresse du cabinet.</p>
+        <a href="#" class="text-blue-600 font-medium cursor-pointer"(click)="changelocation()">Modifier →</a>
+      </div>
+    </section>
+  </div>
+
+
+<!--button (click)="navigateTocalendar()">calendar</button>
+<button (click)="changelocation()">location </button-->
