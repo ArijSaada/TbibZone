@@ -1,0 +1,39 @@
+<p>modifier-rdv works!</p>
+<form #rdvForm="ngForm" (ngSubmit)="ModifierRdv()">
+  <div class="form-group">
+    <label for="nom">Nom Patient</label>
+    <input type="text" class="form-control" id="nom" name="nom_patient" [(ngModel)]="nom_patient" >
+  </div>
+
+  <div class="form-group">
+    <label for="prenom">Prénom Patient</label>
+    <input type="text" class="form-control" id="prenom" name="prenom_patient" [(ngModel)]="prenom_patient" >
+  </div>
+
+  <div class="form-group">
+    <label>Nouveau nom du patient</label>
+    <input type="text" class="form-control" name="Inputnom" [(ngModel)]="Inputnom">
+  </div>
+
+  <div class="form-group">
+    <label>Nouveau prénom du patient</label>
+    <input type="text" class="form-control" name="Inputprenom" [(ngModel)]="Inputprenom">
+  </div>
+
+  <div class="form-group">
+    <label>Ancienne date et heure</label>
+    <input type="text" class="form-control" name="DateHeure" [(ngModel)]="DateHeure" required>
+  </div>
+
+  <div class="form-group">
+    <label>Nouvelle date et heure</label>
+    <input type="text" class="form-control" name="inputDateTime" [(ngModel)]="inputDateTime">
+  </div>
+
+  <div class="form-group">
+    <label>Détails</label>
+    <textarea class="form-control" name="details" [(ngModel)]="details"></textarea>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Soumettre</button>
+</form>
