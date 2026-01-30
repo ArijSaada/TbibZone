@@ -1,0 +1,162 @@
+.calendar-controls {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  max-width: 600px; /* optional limit */
+  margin: 20px auto;
+  padding: 0 10px;
+}
+.calendar-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+.calendar-wrapper {
+  position: relative;
+  min-height: 100vh;
+  padding-top: 100px;
+}
+.floating-right-box {
+  position: fixed;
+  top: 50%;
+  right: 0%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  z-index: 2000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.floating-right-box input {
+  width: 250px;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+
+
+.floating-center-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  z-index: 2000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.floating-center-box input {
+  width: 250px;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.box-button {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  color: white;
+}
+
+/* Couleurs spécifiques */
+.btn-green {
+  background-color: #28a745;
+}
+
+.btn-yellow {
+  background-color: #ffc107;
+  color: black;
+}
+
+.btn-red {
+  background-color: #dc3545;
+}
+
+.btn-gray {
+  background-color: #6c757d;
+}
+
+
+.input-overlay {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  z-index: 10;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+
+.calendar-controls button {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.calendar-controls button:hover {
+  background-color: #e2e2e2;
+}
+.thisDay {
+  background-color: #007bff !important;
+  color: white !important;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+.calendar-controls button.active {
+  background-color: #a3f1d9;
+  color: white;
+  border-color: #a3f1d9;
+}
+.selectClass {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.selectClass select {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+  min-width: 120px;
+}
+
+.selectClass select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.2);
+}

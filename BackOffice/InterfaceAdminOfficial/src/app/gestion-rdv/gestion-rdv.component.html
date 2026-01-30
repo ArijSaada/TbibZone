@@ -1,0 +1,120 @@
+<div class="calendar-wrapper">
+  
+  <input
+    type="text"
+    
+    (keydown.enter)="onSearchInput(searchTerm)"
+    placeholder="🔍 Search events..."
+    style="padding-left: 10px;" />
+
+<div class="calendar-controls">
+  <button (click)="view = CalendarView.Month" class = "active">Month</button>
+  <button (click)="view = CalendarView.Week" class = "active">Week</button>
+  <button (click)="view = CalendarView.Day" class = "active">Day</button>
+  
+</div>
+<div class = "selectClass">
+  <select area-label ="select Month" [(ngModel)]="selectedMonth" (change)="updateViewDate()" >
+
+    <option *ngFor="let month of months; let i = index" [value]="i">{{ month }}</option>
+    </select>
+    <select area-label ="select Year" [(ngModel)]="selectedYear" (change)="updateViewDate()" >
+      <option *ngFor="let year of years" [value]="year">{{ year }}</option>
+    </select>
+
+  <select area-label ="select Day" [(ngModel)]="selectedDay" (change)="onDateChosen()" >
+    <option *ngFor="let day of days" [value]="day">{{ day }}</option>
+  </select>
+  
+</div>
+<div *ngIf="pressed" class="floating-center-box">
+  <h2>Gestion des rendez-vous</h2>
+  <label for = "Patient ">Nom Patient</label>
+  <input type="text" [(ngModel)]="nom_patient" placeholder="nom du patient" />
+  <label for = "Patient ">Prenom Patient</label>
+  <input type="text" [(ngModel)]="prenom_patient" placeholder="prenom du patient" />
+  
+
+  <label for = "Medecin ">Nom Medecin</label>
+  <input type="text" [(ngModel)]="nom_doc" placeholder="nom  medecin" />
+  
+  <label for = "Medecin ">Prenom Medecin</label>
+  <input type="text" [(ngModel)]="prenom_doc" placeholder="prenom du medecin" />
+
+  <input type="time" step="60" [(ngModel)]="newEventTime"   placeholder="HH:mm:ss" />
+ <input type="text" *ngIf="showInlineInput" 
+       [value]="newEventDate" 
+       readonly />
+
+  <div class="box-button">
+    <button class="btn btn-green" *ngIf="!datehasevent" (click)="add_rdv()">Ajouter</button>
+  
+    <button class="btn btn-yellow" (click)="Delete_rdv()">Supprimer</button>
+    <button class="btn btn-gray"  (click)="Update_rdv()">Modifier</button>
+    <button class="btn btn-red" >Annuler</button>
+  </div>
+</div>
+
+
+
+
+</div>
+<div  *ngIf="modifier" class="floating-right-box">
+  <h2>Modifier rendez-vous</h2>
+  <label for="nom">Nom_medecin</label>
+    <input type="text" id="nom" [(ngModel)]="newnom_doc" />
+    <label for="prenom">Prénom_Medecin</label>
+    <input type="text" id="prenom" [(ngModel)]="newprenom_doc" />
+    <label for="mail">nom_patient</label>
+    <input type="text" id="mail" [(ngModel)]="newnom_patient" />
+    <label for="password">prenom_patient</label>
+    <input type="text" id="password" [(ngModel)]="newprenom_patient" />
+     <button (click)="Update_rdv()" class="btn-blue border-radius" (click)="SubmitModifier()">Modifier</button>
+  <button class = "btn btn-danger border-radius" type="reset">Annuler</button>
+
+  
+</div>
+
+<mwl-calendar-month-view 
+  *ngIf="view === CalendarView.Month"
+  [viewDate]="viewDate"
+  [events]="events"
+  (eventTimesChanged)="onDateChosen()"
+  (dayClicked)="onDatedClicked($event)"
+
+>
+
+</mwl-calendar-month-view>
+<!--div *ngIf="rdvs && rdvs.length > 0">
+  <ul>
+    <li *ngFor="let event of rdvs">
+      {{ event.title }} - {{ event.start | date:'fullDate' }}
+    </li>
+  </ul>
+</div-->
+<!--input type="text" placeholder="Event title" class="input-box" />
+<button class="input-box">Add</button>
+<div class = calendar-container-->
+
+<mwl-calendar-week-view
+  *ngIf="view === CalendarView.Week"
+  [viewDate]="viewDate"
+  [events]="events"
+  [dayStartHour]="7"
+  [dayEndHour]="19"
+  (hourSegmentClicked)="GererEvent($event)"
+  (eventClicked)="GererEventExisting($event)"
+>
+
+</mwl-calendar-week-view>
+
+<mwl-calendar-day-view
+  *ngIf="view === CalendarView.Day"
+  [viewDate]="viewDate"
+  [events]="events"
+  [dayStartHour]="7"
+  [dayEndHour]="19"
+  (hourSegmentClicked)="GererEvent($event)"
+  >
+</mwl-calendar-day-view>
+
