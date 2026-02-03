@@ -1,1 +1,2 @@
-# TbibZone
+# 🩺TbibZone
+Tbibzone est une application web et mobile de prise et gestion des rendez-vous entre médecins et patients, permettant aux utilisateurs de rechercher un médecin par proximité grâce à un algorithme du plus proche, par nom, par spécialité ou par adresse du cabinet, tout en offrant la possibilité de planifier, consulter et gérer leurs rendez-vous en ligne, avec l’intégration d’un chatbot intelligent capable d’orienter le patient vers le spécialiste le plus adapté selon les symptômes décrits.
